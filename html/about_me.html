@@ -1,0 +1,296 @@
+<!-- MiKayla Castro
+Section 004
+April 13 2026 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Blog - About Me</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f6f6f6;
+        color: #333;
+        scroll-behavior: smooth;
+    }
+
+    nav {
+        background: white;
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    nav a {
+        margin: 0 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #444;
+    }
+
+    nav a:hover {
+        color: #c89be3;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    p {
+        max-width: 700px;
+        margin: 10px auto 20px;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+    /* PROFILE */
+    .profile {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 15px;
+        margin: 10px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .profile-wrap {
+        text-align: center;
+    }
+
+    /* STATS CARD */
+    .stats-card {
+        background: white;
+        max-width: 500px;
+        margin: 20px auto 40px;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+        text-align: center;
+    }
+
+    .stats-card h2 {
+        margin-bottom: 10px;
+        color: #c89be3;
+    }
+
+    .stats-card p {
+        margin: 5px 0;
+        font-size: 1.05rem;
+    }
+
+    /* PROGRESS BAR */
+    .progress-bar {
+        width: 100%;
+        height: 18px;
+        background: #eee;
+        border-radius: 50px;
+        overflow: hidden;
+        margin-top: 15px;
+    }
+
+    .progress-fill {
+        width: 56%;
+        height: 100%;
+        background: linear-gradient(90deg, #c89be3, #b57edc);
+        border-radius: 50px;
+    }
+
+    /* STATE POST */
+    .post {
+        background: white;
+        border-radius: 14px;
+        margin: 25px auto;
+        padding: 15px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+        max-width: 750px;
+    }
+
+    .state {
+        font-size: 1.3rem;
+        font-weight: bold;
+        border-left: 4px solid #c89be3;
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .post img {
+        width: 100%;
+        max-width: 650px;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+        border-radius: 10px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.10);
+    }
+
+    .caption {
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 0.9rem;
+        color: #555;
+    }
+
+    /* BACK TO TOP */
+    #topBtn {
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        background: #c89be3;
+        color: white;
+        border: none;
+        padding: 10px 14px;
+        border-radius: 50px;
+        cursor: pointer;
+        font-weight: bold;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    #topBtn:hover {
+        background: #b57edc;
+    }
+
+    /* FOOTER */
+    footer {
+        margin-top: 50px;
+        padding: 20px;
+        text-align: center;
+        background: white;
+        border-top: 1px solid #ddd;
+        font-size: 0.9rem;
+        color: #666;
+    }
+</style>
+</head>
+
+<body id="top">
+
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="resume.html">Resume</a>
+    <a href="about_me.html">About Me</a>
+</nav>
+
+<div class="container">
+
+    <h1>Travel Blog</h1>
+
+    <p>
+        I am a Political Science student at BYU from Illinois. I enjoy traveling across the United States and experiencing new places, cultures, and landscapes.
+    </p>
+
+    <!-- PROFILE -->
+    <div class="profile-wrap">
+        <img class="profile" src="../Images/2024_Graduation_Photo.jpeg">
+        <img class="profile" src="../Images/Mikayla_Castro.JPG">
+    </div>
+
+    <!-- STATS -->
+    <div class="stats-card">
+        <h2>Travel Stats</h2>
+        <p><strong>28 / 50</strong> U.S. states visited</p>
+        <p><strong>56%</strong> of the United States explored</p>
+
+        <div class="progress-bar">
+            <div class="progress-fill"></div>
+        </div>
+    </div>
+
+    <!-- STATES -->
+
+    <div class="post">
+        <div class="state">Alabama</div>
+        <img src="../Images/AL.JPG">
+        <div class="caption">Alabama sunset moment</div>
+
+        <img src="../Images/Graysonvalley_AL.JPG">
+        <div class="caption">Grayson Valley views</div>
+    </div>
+
+    <div class="post">
+        <div class="state">Colorado</div>
+        <img src="../Images/Denver.JPG">
+        <div class="caption">Downtown Denver</div>
+
+        <img src="../Images/GJ_CO.JPG">
+        <div class="caption">Grand Junction scenery</div>
+
+        <img src="../Images/Idahosprings_CO.JPG">
+        <div class="caption">Idaho Springs mountains</div>
+    </div>
+
+    <div class="post">
+        <div class="state">Florida</div>
+        <img src="../Images/BEACH_FL.JPG">
+        <div class="caption">Florida beach day</div>
+
+        <img src="../Images/Cocoabeach_FL.JPG">
+        <div class="caption">Cocoa Beach sunset</div>
+    </div>
+
+    <div class="post">
+        <div class="state">Kentucky</div>
+        <img src="../Images/HOPTOWN.JPG">
+        <div class="caption">Hopkinsville, Kentucky</div>
+    </div>
+
+    <div class="post">
+        <div class="state">Maryland</div>
+        <img src="../Images/Maryland.JPG">
+        <div class="caption">Maryland visit</div>
+    </div>
+
+    <div class="post">
+        <div class="state">Missouri</div>
+        <img src="../Images/MISSOURI.JPG">
+        <div class="caption">Missouri stop</div>
+    </div>
+
+    <div class="post">
+        <div class="state">Nevada</div>
+        <img src="../Images/WWNV.JPG">
+        <div class="caption">Nevada moments</div>
+    </div>
+
+    <div class="post">
+        <div class="state">Pennsylvania</div>
+        <img src="../Images/Philly_PA.JPG">
+        <div class="caption">Philadelphia visit</div>
+    </div>
+
+    <div class="post">
+        <div class="state">Utah</div>
+        <img src="../Images/Provo.JPG">
+        <div class="caption">Provo moments</div>
+
+        <img src="../Images/STGeorgeRedRock.JPG">
+        <div class="caption">St. George red rocks</div>
+    </div>
+
+</div>
+
+<!-- BACK TO TOP -->
+<button id="topBtn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    ↑ Top
+</button>
+
+<!-- FOOTER -->
+<footer>
+    Designed by MiKayla Castro © 2026
+</footer>
+
+</body>
+</html>

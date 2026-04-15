@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f6f6f6;
+    color: #333;
+}
+
+/* NAV (ALL PAGES SAME) */
+nav {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #444;
+}
+
+nav a:hover {
+    color: #c89be3;
+}
+
+/* PAGE CONTAINER */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+/* CARDS */
+.card {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+}
+
+/* HEADINGS */
+h1, h2 {
+    color: #c89be3;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* PROFILE IMAGE */
+.profile {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* STATE BLOG STYLE (ABOUT PAGE) */
+.post {
+    background: white;
+    border-radius: 14px;
+    margin: 25px 0;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.caption {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+}
